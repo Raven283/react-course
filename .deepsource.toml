@@ -1,0 +1,13 @@
+version = 1
+
+test_patterns = ["*/tests/**"]
+
+exclude_patterns = [
+    "/dist/*.min.js",
+    ".idea/",
+    ".vscode/"
+]
+
+[[analyzers]]
+name = "test-coverage"
+enabled = true
